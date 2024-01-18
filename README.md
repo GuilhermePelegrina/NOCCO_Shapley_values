@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This work proposes an approach to detect relevant and disparity prone features, before training step, in machine learning. Our proposal is based on the normalized version of Hilbert-Schmidt Independence Criterion (HSIC), called NOCCO, and the hypothesis is that features with high marginal dependence with the outcomes may have a high impact into the both algorithm predictive power and disparate results. In order to evaluate our proposal, we consider the following datasets:
+This work proposes an approach to detect relevant and disparity prone features, before training step, in machine learning. Our proposal is based on the normalized version of Hilbert-Schmidt Independence Criterion (HSIC), called NOCCO, and on the Shapley values. The hypothesis is that features with high marginal dependence with the outcomes may have a high impact into the both algorithm predictive power and disparate results. In order to evaluate our proposal, we consider the following datasets:
 
 - Adult Income: https://archive.ics.uci.edu/ml/datasets/adult
 - COMPAS Recidivism risk: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
